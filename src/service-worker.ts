@@ -58,7 +58,7 @@ registerRoute(
 registerRoute(
   // Add in any other file extensions or routing criteria as needed.
   ({ url }) =>
-    url.origin === self.location.origin && url.pathname.endsWith(".png"),
+    url.origin === self.location.origin && url.pathname.endsWith(".png ||.jpeg"),
   // Customize this strategy as needed, e.g., by changing to CacheFirst.
   new StaleWhileRevalidate({
     cacheName: "images",
@@ -79,34 +79,34 @@ self.addEventListener("message", (event) => {
 });
 
 // Any other custom service worker logic can go here.
-self.addEventListener('install', function(event) {
-  event.waitUntil(
-    caches.open('my-cache').then(function(cache) {
-      return cache.addAll([
-        '/assets/icons/icon-72x72.png',
-        '/assets/icons/icon-96x96.png',
-        '/assets/icons/icon-128x128.png',
-        '/assets/icons/icon-144x144.png',
-        '/assets/icons/icon-152x152.png',
-        '/assets/icons/icon-192x192.png',
-        '/assets/icons/icon-384x384.png',
-        '/assets/icons/icon-512x512.png',
-              '/assets/breakfast.png',
-              '/assets/cake.png',
-              '/assets/egg.png',
-              '/assets/food.png',
-              '/assets/fries.jpg',
-              '/assets/macroni.jpg',
-              '/assets/noodles.jpg',
-              '/assets/pancake.png',
-             '/assets/pizza.png',
-             '/assets/salad.jpg',
-             '/assets/samosa.jpg',
-             '/assets/shopping-cart.png',
-             '/assets/soup.jpg',
-             '/assets/tacos.jpg'
+// self.addEventListener('install', function(event) {
+//   event.waitUntil(
+//     caches.open('my-cache').then(function(cache) {
+//       return cache.addAll([
+//         '/assets/icons/icon-72x72.png',
+//         '/assets/icons/icon-96x96.png',
+//         '/assets/icons/icon-128x128.png',
+//         '/assets/icons/icon-144x144.png',
+//         '/assets/icons/icon-152x152.png',
+//         '/assets/icons/icon-192x192.png',
+//         '/assets/icons/icon-384x384.png',
+//         '/assets/icons/icon-512x512.png',
+//               '/assets/breakfast.png',
+//               '/assets/cake.png',
+//               '/assets/egg.png',
+//               '/assets/food.png',
+//               '/assets/fries.jpg',
+//               '/assets/macroni.jpg',
+//               '/assets/noodles.jpg',
+//               '/assets/pancake.png',
+//              '/assets/pizza.png',
+//              '/assets/salad.jpg',
+//              '/assets/samosa.jpg',
+//              '/assets/shopping-cart.png',
+//              '/assets/soup.jpg',
+//              '/assets/tacos.jpg'
        
-      ]);
-    })
-  );
-});
+//       ]);
+//     })
+//   );
+// });
