@@ -8,65 +8,65 @@
       "type": "image/x-icon",
       "purpose": "any maskable"
     },
-    
+
     {
       "src": "cake.png",
-      "type": "image/png",
-      "sizes": "192x192",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon",
       "purpose": "any maskable"
     },
     {
       "src": "egg.png",
-      "type": "image/png",
-      "sizes": "512x512",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon",
       "purpose": "any maskable"
     },
     {
       "src": "food.png",
-      "type": "image/png",
-      "sizes": "512x512",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon",
       "purpose": "any maskable"
     },
     {
       "src": "fries.png",
-      "type": "image/png",
-      "sizes": "512x512",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon",
       "purpose": "any maskable"
     },
     {
       "src": "macroni.png",
-      "type": "image/png",
-      "sizes": "512x512",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon",
       "purpose": "any maskable"
     },
     {
       "src": "noodles.png",
-      "type": "image/png",
-      "sizes": "512x512",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon",
       "purpose": "any maskable"
     },
     {
       "src": "pancake.png",
-      "type": "image/png",
-      "sizes": "512x512",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon",
       "purpose": "any maskable"
     },
     {
       "src": "pizza.png",
-      "type": "image/png",
-      "sizes": "512x512",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon",
       "purpose": "any maskable"
     },
     {
       "src": "salad.png",
-      "type": "image/png",
-      "sizes": "512x512",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon",
       "purpose": "any maskable"
     },
     {
       "src": "samosa.png",
-      "type": "image/png",
-      "sizes": "512x512",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon",
       "purpose": "any maskable"
     },
     {
@@ -77,8 +77,8 @@
     },
     {
       "src": "soup.png",
-      "type": "image/png",
-      "sizes": "512x512",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon",
       "purpose": "any maskable"
     },
     {
