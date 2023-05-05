@@ -90,7 +90,22 @@ self.addEventListener('install', function(event) {
         '/assets/icons/icon-152x152.png',
         '/assets/icons/icon-192x192.png',
         '/assets/icons/icon-384x384.png',
-        '/assets/icons/icon-512x512.png'
+        '/assets/icons/icon-512x512.png',
+              '/assets/breakfast.png',
+              '/assets/cake.png',
+              '/assets/egg.png',
+              '/assets/food.png',
+              '/assets/fries.jpg',
+              '/assets/macroni.jpg',
+              '/assets/noodles.jpg',
+              '/assets/pancake.png',
+             '/assets/pizza.png',
+             '/assets/salad.jpg',
+             '/assets/samosa.jpg',
+             '/assets/shopping-cart.png',
+             '/assets/soup.jpg',
+             '/assets/tacos.jpg'
+       
       ]);
     })
   );
